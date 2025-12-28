@@ -267,20 +267,26 @@
             <form action="https://formspree.io/f/mpqzlajn" method="POST" class="space-y-6 text-left max-w-2xl mx-auto">
     <div class="space-y-2">
         <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 ml-4">Full Name</label>
-        <input type="text" name="name" placeholder="John Doe" required class="w-full bg-black/40 border border-white/10 rounded-2xl px-8 py-5 focus:border-blue-500 outline-none transition-all">
+        <input type="text" name="name" placeholder="Enter your name" required 
+            class="w-full bg-black/40 border border-white/10 rounded-2xl px-8 py-5 focus:border-blue-500 outline-none transition-all">
     </div>
 
     <div class="space-y-2">
-        <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 ml-4">Your Email</label>
-        <input type="email" name="_replyto" placeholder="email@example.com" required class="w-full bg-black/40 border border-white/10 rounded-2xl px-8 py-5 focus:border-blue-500 outline-none transition-all">
+        <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 ml-4">Your Email Address</label>
+        <input type="email" name="email" placeholder="example@gmail.com" required 
+            class="w-full bg-black/40 border border-white/10 rounded-2xl px-8 py-5 focus:border-blue-500 outline-none transition-all">
     </div>
 
     <div class="space-y-2">
-        <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 ml-4">Project Details</label>
-        <textarea name="message" rows="4" placeholder="Tell me about your video project..." required class="w-full bg-black/40 border border-white/10 rounded-2xl px-8 py-5 focus:border-blue-500 outline-none transition-all"></textarea>
+        <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 ml-4">Project Description</label>
+        <textarea name="message" rows="4" placeholder="Tell me about your video project..." required 
+            class="w-full bg-black/40 border border-white/10 rounded-2xl px-8 py-5 focus:border-blue-500 outline-none transition-all"></textarea>
     </div>
 
-    <button type="submit" class="w-full bg-blue-600 py-6 rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-blue-700 hover:scale-[1.02] smooth-transition shadow-2xl shadow-blue-500/30">Submit Inquiry</button>
+    <button type="submit" 
+        class="w-full bg-blue-600 py-6 rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-blue-700 hover:scale-[1.02] smooth-transition shadow-2xl shadow-blue-500/30">
+        Submit Inquiry
+    </button>
 </form>
             
             <button onclick="navigateTo('home-page')" class="mt-12 text-xs text-gray-500 underline uppercase tracking-widest hover:text-white transition-colors">Back to Home</button>
